@@ -1,0 +1,196 @@
+/* font-family: 'Press Start 2P', cursive; */
+
+/* CSS FOR FRONT PAGE OF THE GAME SITE BELOW */
+#front-page {
+  background-color: black;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#scratch-out-line {
+  position: absolute;
+  left: 15px;
+  top: 140px;
+  width: 100%;
+}
+#legendmon {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 100px;
+
+  /* Make the text transparent so it will show the background and only clip the text part of the background */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* What will show for the text */
+  background-image: url("../images/brushed_metal_by_kttyjay.png");
+
+  /* fallback text color
+            ~ or ~
+  the actual color of text */
+  color: white;
+}
+
+#play-btn {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+
+  /* Make the text transparent so it will show the background and only clip the text part of the background */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* What will show for the text */
+  background-image: url("../images/brushed_metal_by_kttyjay.png");
+
+  /* fallback text color
+            ~ or ~
+  the actual color of text */
+  color: white;
+}
+
+/* CSS FOR FRONT PAGE ABOVE */
+
+/* CSS FOR GAME PAGE BELOW */
+
+#game-page {
+  background-image: url("../images/background.jpg");
+}
+
+#header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+  color: silver;
+}
+
+.card-title {
+  font-family: "Press Start 2P", cursive;
+}
+.chosen-display-name {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+}
+
+#enemy-display-name {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+}
+
+.chosen-img {
+  width: 250px;
+  height: 250px;
+}
+
+#enemyImage {
+  width: 250px;
+  height: 250px;
+}
+.inline {
+  display: inline;
+}
+
+#battle-log {
+  width: 50%;
+  height: 250px;
+  border: 2px solid black;
+  margin: 0px 15px;
+  overflow-y: scroll;
+}
+
+.log {
+  margin: 0px 15px;
+  color: silver;
+}
+#attack-bar {
+  width: 50%;
+  height: 200px;
+  border: 2px solid black;
+  margin: 15px;
+}
+
+
+.hp-bar {
+  text-align: center;
+  font-size : 25px;
+  margin-top: 10px;
+  width : 250px;
+  height: 30px;
+  position : relative;
+}
+.hp-bar:before {
+  content: attr(value);
+  font-size: 0.8em;
+  vertical-align: 0;
+  
+  /*Position text over the progress bar */
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+#auto-btn {
+  position: absolute;
+  left: 27%;
+  top: 45%;
+  width: 50%;
+}
+
+.atk-btns {
+  width: 35%;
+}
+
+#attack-1-btn {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+#attack-2-btn {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+#attack-3-btn {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+#attack-4-btn {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
+
+
+#turn-bar {
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+}
+
+.win {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.win-final {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#new-game-btn{
+  font-size: 50px;
+  width: 100%;
+}
