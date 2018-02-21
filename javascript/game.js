@@ -85,9 +85,9 @@ var Vayne = {
       name: "Condemn",
       type: "crowd-control",
       ccType: "stun",
-      damage: 5,
+      damage: 10,
       description:
-        "Vayne condemns her enemy, dealing 5 damage! Her opponent is stunned for 1 turn!"
+        "Vayne condemns her enemy into a wall, dealing 10 damage! Her opponent is stunned for 1 turn!"
     },
     attack3: {
       name: "Vampiric Shot",
@@ -140,9 +140,9 @@ var MasterYi = {
     attack4: {
       name: "Blade Dance",
       type: "damage",
-      damage: 30,
+      damage: 25,
       description:
-        "Master Yi quickly attacks 6 times with Blade Dance, dealing 30 damage!"
+        "Master Yi quickly attacks 5 times with Blade Dance, dealing 25 damage!"
     }
   },
   characterImage: masterYiImg
@@ -174,8 +174,8 @@ var Renekton = {
     attack3 : {
       name: "Slice and Dice",
       type: "damage",
-      damage: 20,
-      description: "Renekton dashes through his opponent, slicing and dicing for 20 damage!"
+      damage: 30,
+      description: "Renekton dashes through his opponent, slicing and dicing for 30 damage!"
     },
     attack4 : {
       name: "Dominus",
