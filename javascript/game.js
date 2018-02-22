@@ -1,4 +1,4 @@
-// Will Undo this later... $(document).ready(function() {
+$(document).ready(function() {
 // Setting up all characters and variables globally
 var chosenCharacter;
 var currentEnemy;
@@ -1288,4 +1288,4 @@ function gameOver() {
 }
 //END OF DOCUMENT
 //END OF DOCUMENT
-// Will undo this later...});
+});
